@@ -28,7 +28,7 @@ time.sleep(1)
 print("Starting now... \n")
 
 with open('lyrics.txt', 'r') as file:
-    sourceFile = file.read().replace('\n', '')
+    sourceFile = file.read().replace('\n', ' ')
 words = sourceFile.split()
 
 for word in words:
